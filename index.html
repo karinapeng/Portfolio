@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Selected work by Kat P, a multidisciplinary designer.">
+  <title>Kat P — Multidisciplinary Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Overpass:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="Karina Peng, home">Karina Peng</a>
+    <nav aria-label="Main navigation">
+      <a href="#work">WORK</a>
+      <a href="about.html">ABOUT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro" id="about" aria-labelledby="intro-title">
+      <div class="sprinkle-layer" aria-hidden="true"></div>
+      <div class="intro-copy">
+        <!-- IMAGE SWAP: change the portrait filename here; store the replacement in assets/. -->
+        <h1 id="intro-title" class="intro-statement">Hello, I'm Kat!<img class="intro-inline-image portrait-image" src="assets/kat-portrait-cutout.png" alt="Illustrated portrait of K"><br>a multidisciplinary designer exploring visual storytelling and interactive experiences based in SF 🌉&nbsp;.</h1>
+      </div>
+    </section>
+
+    <section class="work-section" id="work" aria-label="Selected projects">
+      <div class="work-sticky">
+        <div class="project-track">
+          <!-- IMAGE SWAP: change each --project-image URL below to replace a gallery image. -->
+          <!-- PROJECT 1 IMAGE: assets/small-wings-big-impact.jpg -->
+          <article class="project project-poster" style="--project-image:url('assets/small-wings-big-impact.jpg')">
+            <a class="project-link" href="project.html?project=small-wings-big-impact" aria-label="View case study: Mission Blue"></a>
+            <div class="project-image" role="img" aria-label="Mission Blue environmental awareness campaign poster"></div>
+            <div class="project-shade"></div>
+            <div class="project-copy"><p class="project-meta">2025</p><h2>Small Wings,<br>Big Impact</h2><p class="project-description">Plant native flowers. Protect the Mission Blue Butterfly and its habitat.</p></div>
+          </article>
+          <!-- PROJECT 2 IMAGE: replace this file path to swap the poster thumbnail. -->
+          <article class="project project-portrait" style="--project-image:url('assets/WeHaveNoArt_Poster.png')">
+            <a class="project-link" href="project.html?project=field-notes" aria-label="View case study: We Have No Art"></a>
+            <div class="project-image" role="img" aria-label="We Have No Art exhibition poster placeholder"></div>
+            <div class="project-shade"></div>
+            <div class="project-copy"><p class="project-meta">Poster Design · 2025</p><h2>We Have No Art</h2><p class="project-description">An exhibition poster communicating the show's ethos without depicting the featured artwork.</p></div>
+          </article>
+          <!-- PROJECT 3 IMAGE: replace this file path to swap the poster thumbnail. -->
+          <article class="project project-portrait" style="--project-image:url('assets/RadicalModernists_Poster.png')">
+            <a class="project-link" href="project.html?project=play-mode" aria-label="View case study: Radical Modernists"></a>
+            <div class="project-image" role="img" aria-label="Radical Modernists poster featuring Corita Kent and Dan Friedman"></div>
+            <div class="project-shade"></div>
+            <div class="project-copy"><p class="project-meta">Poster Design · 2025</p><h2>Radical Modernists</h2><p class="project-description">An exhibition poster using a gas can as a visual metaphor for creative energy and change.</p></div>
+          </article>
+          <article class="project project-landscape" style="--project-image:url('assets/kombucha2.jpeg')">
+            <a class="project-link" href="project.html?project=objects-of-use" aria-label="View case study: Mysophobia"></a>
+            <div class="project-image" role="img" aria-label="Mysophobia kombucha bottles displayed on a store shelf"></div>
+            <div class="project-shade"></div>
+            <div class="project-copy"><p class="project-meta">Kombucha Packaging Design · 2025</p><h2>Mysophobia</h2><p class="project-description">A playful kombucha packaging concept inspired by the fear of germs.</p></div>
+          </article>
+        </div>
+        <div class="gallery-progress" aria-hidden="true"><span></span></div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Let's Work Together!</h2>
+      <!-- EDIT EMAIL: update the address in both the mailto: URL and visible text. -->
+      <a class="contact-email" href="mailto:jpy.lightspace@gmail.com">jpy.lightspace@gmail.com</a>
+      <footer><span>© 2026 Karina Peng</span><a href="#top">Back to top <span class="back-to-top-arrow" aria-hidden="true">↑</span></a></footer>
+    </section>
+  </main>
+</body>
+</html>
